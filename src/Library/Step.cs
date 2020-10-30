@@ -7,7 +7,7 @@
 namespace Full_GRASP_And_SOLID
 {
     // Modificada por OCP
-    public class Step : BaseStep
+    public class Step : BaseStep, IContent
     {
         public Step(Product input, double quantity, Equipment equipment, int time)
             : base(time)
